@@ -1,0 +1,26 @@
+# Personal IoT Dashboard
+
+Home Assistant 생활 자동화 구축과 서울대 연구 연계 실험 기록입니다. 2026-10-19 기준.
+
+## 보고서
+
+- [전체 목록 HTML](index.html)
+- [최신 Easy Guide](reports/easy.html)
+- [최신 Fix Guide](reports/fix.html)
+- [서울대 연구 연계 계획](reports/research.html)
+- [기존 HTML 보고서 22개](reports/archive/)
+
+GitHub 파일 화면에서는 HTML 소스가 표시됩니다. 저장소를 ZIP으로 내려받아 압축을 풀고 `index.html`을 브라우저에서 열면 클릭 가능한 보고서로 읽을 수 있습니다. GitHub Pages 배포는 별도로 설정하지 않았습니다.
+
+## 확인된 상태와 한계
+
+- G3 N100 Windows의 Home Assistant 운영 및 안드로이드 시험 알림 수신 확인.
+- 기존 세탁기·미닉스 MNMD-120 유지. 종료 추정 알림은 센서 수령·실험 전.
+- T1 출고 모델과 SLZB-06U 재고는 판매자 확인 대기. 구매 확정 아님.
+- 첫 연구 주제: 저비용 진동 이벤트로 작동 종료를 추정하고 오알림·누락·지연을 측정.
+- 서울대 연구 분야와의 연결은 프로젝트 제안이며 협업·입학·지원 자격 확정 아님.
+- 가격과 링크는 작성 당시 기록이며 과거 보고서의 잘못된 권고는 최신 보고서를 우선합니다.
+
+## 공개 범위
+
+기존 HTML의 공개용 사본과 연구 계획만 포함합니다. 실제 내부 LAN IP는 자리표시자로 치환했습니다. Home Assistant 설정·계정·인증 토큰·백업·VirtualBox VDI·개인 이메일 기록은 포함하지 않습니다. 원본 보고서는 로컬에 그대로 보존됩니다.
