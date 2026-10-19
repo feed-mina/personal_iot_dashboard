@@ -1,0 +1,6 @@
+*.vdi
+*.vhdx
+.env
+secrets.yaml
+.storage/
+private-backups/
