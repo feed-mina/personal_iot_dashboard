@@ -1,0 +1,100 @@
+{
+  "checked_at": "2026-10-19",
+  "skill": "https://github.com/feed-mina/mina-gpt-config/blob/main/ui-benchmarking-analyst/SKILL.md",
+  "repositories": [
+    {
+      "repository": "home-assistant/frontend",
+      "readme_blob": "d51ebdb968f71fb71e40e91a970366178c579657",
+      "checked_at": "2026-10-19",
+      "evidence": "GitHub connector README / selected source and license",
+      "default_branch": "dev"
+    },
+    {
+      "repository": "piitaya/lovelace-mushroom",
+      "readme_blob": "3016d480518364ef6e26700ee14133e1de68e9f1",
+      "checked_at": "2026-10-19",
+      "evidence": "GitHub connector README / selected source and license",
+      "default_branch": "main"
+    },
+    {
+      "repository": "Koenkk/zigbee2mqtt",
+      "readme_blob": "0fc292ca8a1e9dd58fa67799945b58c587b9648e",
+      "checked_at": "2026-10-19",
+      "evidence": "GitHub connector README / selected source and license",
+      "default_branch": "master"
+    },
+    {
+      "repository": "thingsboard/thingsboard",
+      "readme_blob": "36396310d9b042d1ddafcd4395cc7bfc9e27bf92",
+      "checked_at": "2026-10-19",
+      "evidence": "GitHub connector README / selected source and license",
+      "default_branch": "master"
+    },
+    {
+      "repository": "grafana/grafana",
+      "readme_blob": "7b768e029f8ad89feae45d31bce9a57d42d9cf5c",
+      "checked_at": "2026-10-19",
+      "evidence": "GitHub connector README / selected source and license",
+      "default_branch": "main"
+    },
+    {
+      "repository": "online-ml/river",
+      "readme_blob": "f453e8b941f7896f989fb8057ed5104cf11b73ff",
+      "checked_at": "2026-10-19",
+      "evidence": "GitHub connector README / selected source and license",
+      "default_branch": "main"
+    },
+    {
+      "repository": "apache/echarts",
+      "readme_blob": "35164a15e30832259d8a0728adccfca7252d3f92",
+      "checked_at": "2026-10-19",
+      "evidence": "GitHub connector README / selected source and license",
+      "default_branch": "master"
+    },
+    {
+      "repository": "drivendataorg/cookiecutter-data-science",
+      "readme_blob": "ac9eb221225cec566db13334515ef8e3332de8a8",
+      "checked_at": "2026-10-19",
+      "evidence": "GitHub connector README / selected source and license",
+      "default_branch": "main"
+    }
+  ],
+  "local_baseline": {
+    "file": "HA-Docker-test-20261018/config/.storage/lovelace.baegot_home",
+    "references": [
+      {
+        "line": 46,
+        "finding": "next-step text still includes phone app connection"
+      },
+      {
+        "line": 57,
+        "finding": "indoor sensors explicitly not connected"
+      },
+      {
+        "line": 70,
+        "finding": "weather history card"
+      },
+      {
+        "line": 89,
+        "finding": "logbook for weather and todo"
+      },
+      {
+        "line": 111,
+        "finding": "phone connection confirmation text is outdated; LAN address omitted"
+      }
+    ]
+  },
+  "limits": [
+    "No authenticated commercial UI interaction",
+    "No physical sensor experiment",
+    "No software installation",
+    "No production dashboard modification"
+  ],
+  "artifact_checks": {
+    "internal_links": "passed",
+    "duplicate_ids": "passed",
+    "reference_cards": 8,
+    "commercial_products": 4,
+    "product_checklist": "not executed"
+  }
+}
