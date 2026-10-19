@@ -4,3 +4,5 @@
 secrets.yaml
 .storage/
 private-backups/
+node_modules/
+.test-artifacts/

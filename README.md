@@ -1,5 +1,30 @@
 # Personal IoT Dashboard
 
+## Everyday Signals — 샘플 포트폴리오
+
+[대시보드 HTML](dashboard.html) · [UI 참고 근거](reports/ui-reference-20261019.html) · [검증 결과](reports/dashboard-test-results.json)
+
+![샘플 대시보드 데스크톱](assets/dashboard-desktop.png)
+
+저장소 ZIP을 다운로드하고 압축을 푼 뒤 **dashboard.html**을 열면 설치 없이 사용할 수 있습니다. 모든 상태·수치·기록은 합성 샘플이며 실제 가전·Home Assistant 연결이나 알림 전송은 없습니다.
+
+- 생활·센서·기록/분석·프로젝트 소개 4개 화면
+- 기기/기간 필터, 회차별 근거 창, 미연결·오래된 관측·오프라인·오류 시나리오
+- 샘플 사용자 평가·수신 확인, 계산 분모 구분, 샘플 JSON 내보내기
+- 외부 라이브러리/CDN/폰트 없이 독립 HTML 실행; 새로고침 시 샘플 초기화
+- 실제 앱 시험 수신 성과와 샘플 데모, 향후 실측 목표를 분리
+
+데스크톱 1440×1000 및 모바일 390×844 브라우저 검증 완료. 실제 센서 성능과 HA 실서비스 연동은 검증 범위가 아닙니다.
+
+### 개발 검증
+
+Node.js 환경에서 `npm install`, `npx playwright install chromium`, `npm test` 순서로 실행합니다. Windows의 기존 Edge를 사용할 경우 `PLAYWRIGHT_CHANNEL=msedge` 환경변수를 설정할 수 있습니다. 테스트는 임시 프로필만 사용하며 실제 가전과 연결하지 않습니다.
+
+### 구현 구조와 다음 단계
+
+`dashboard.html`은 샘플 모델/필터·집계 함수/화면 렌더링을 구분합니다. `tests/dashboard.cjs`는 사용자 시나리오를 검증합니다. 센서 도착 후 별도 인증된 데이터 어댑터를 만들어 연결할 계획이며, 브라우저나 공개 저장소에 HA 토큰을 넣지 않습니다. 현재 샘플을 실제 측정 성과로 제시하지 않습니다.
+
+
 Home Assistant 생활 자동화 구축과 서울대 연구 연계 실험 기록입니다. 2026-10-19 기준.
 
 ## 보고서

@@ -1,0 +1,24 @@
+{
+  "testedAt": "2026-10-19 KST",
+  "desktop": "1440x1000",
+  "mobile": "390x844",
+  "passed": [
+    "render",
+    "filters",
+    "empty state",
+    "detail context",
+    "feedback aggregation",
+    "Escape close",
+    "offline judgment disabled",
+    "error retry",
+    "reset",
+    "sample export",
+    "portfolio tab",
+    "mobile overflow",
+    "no runtime error",
+    "no external network request"
+  ],
+  "limits": [
+    "Physical device and Home Assistant integration not tested; standalone sample dashboard only"
+  ]
+}
