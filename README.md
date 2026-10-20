@@ -2,7 +2,7 @@
 
 ## Everyday Signals — 샘플 포트폴리오
 
-[대시보드 HTML](dashboard.html) · [UI 참고 근거](reports/ui-reference-20261019.html) · [검증 결과](reports/dashboard-test-results.json)
+[샘플 대시보드 실행](https://feed-mina.github.io/personal_iot_dashboard/dashboard.html) · [전체 보고서 읽기](https://feed-mina.github.io/personal_iot_dashboard/) · [대시보드 HTML](dashboard.html) · [UI 참고 근거](reports/ui-reference-20261019.html) · [검증 결과](reports/dashboard-test-results.json)
 
 ![샘플 대시보드 데스크톱](assets/dashboard-desktop.png)
 
@@ -35,7 +35,7 @@ Home Assistant 생활 자동화 구축과 서울대 연구 연계 실험 기록�
 - [서울대 연구 연계 계획](reports/research.html)
 - [기존 HTML 보고서 22개](reports/archive/)
 
-GitHub 파일 화면에서는 HTML 소스가 표시됩니다. 저장소를 ZIP으로 내려받아 압축을 풀고 `index.html`을 브라우저에서 열면 클릭 가능한 보고서로 읽을 수 있습니다. GitHub Pages 배포는 별도로 설정하지 않았습니다.
+GitHub Pages에서 [전체 보고서](https://feed-mina.github.io/personal_iot_dashboard/)를 바로 읽을 수 있습니다. [Easy Guide](https://feed-mina.github.io/personal_iot_dashboard/reports/easy.html) · [Fix Guide](https://feed-mina.github.io/personal_iot_dashboard/reports/fix.html) · [연구 연계 계획](https://feed-mina.github.io/personal_iot_dashboard/reports/research.html). GitHub 파일 화면은 HTML 소스를 표시합니다. ZIP을 내려받아 `index.html`을 열어도 됩니다.
 
 ## 확인된 상태와 한계
 
